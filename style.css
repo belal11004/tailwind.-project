@@ -1,6 +1,5 @@
 .page2{
     visibility: hidden;
-    transition: .5s;
     z-index: 1;
     width: 150px;
     padding: 30px;
@@ -12,4 +11,7 @@ transition: .5s;
 background-color: rgb(198, 125, 23);
 
 
+}
+.card:hover img{
+    transform: scale(101%);
 }
